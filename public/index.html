@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, maximum-scale=5"
+		/>
+
+		<link rel="icon" href="devchallenges.png" />
+
+		<link
+			rel="shortcut icon"
+			type="image/x-icon"
+			href="https://devchallenges.io/"
+		/>
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="./styles.css" />
+
+		<title>Devchallenges</title>
+	</head>
+	<body class="bg-[#181719] h-screen text-white">
+		<!-- 
+			Crimson Pro
+			Lora
+			Montserrat
+			-->
+		<nav
+			class="md:max-w-screen-xl w-11/12 m-auto flex py-8 justify-between items-center"
+		>
+			<div
+				class="logo border-solid border border-white p-1 font-['Crimson_Pro']"
+			>
+				THIS INTERIOR
+			</div>
+			<div class="isolate">
+				<ul
+					class="md:flex md:flex-row flex-col justify-center items-center md:gap-20 gap-8 md:relative absolute inset-0 text-[18px] hidden bg-[#181719] -z-10 nav"
+				>
+					<li class="border-b border-b-white font-bold">
+						<a href="#home">Home</a>
+					</li>
+					<li><a href="#collection">Collection</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+				<div class="md:hidden flex text-4xl z-20 toggle">
+					<i class="bx bx-menu"></i>
+					<i class="bx bx-x hidden"></i>
+				</div>
+			</div>
+		</nav>
+
+		<main
+			class="md:max-w-screen-xl w-11/12 m-auto flex md:flex-row flex-col md:items-center md:gap-x-20 gap-y-9 md:py-16"
+		>
+			<!-- Hero Section Start-->
+			<div class="content">
+				<h1 class="font-['Lora'] text-4xl md:text-5xl">
+					Modern interior
+				</h1>
+				<p class="text-sm md:text-2xl md:w-[400px] w-64 my-9">
+					A full-Service residential & commercial interior design and
+					staging company offering professional organizing &
+					eco-services.
+				</p>
+				<a href="#" class="font-bold flex items-center h-auto gap-3"
+					>Read More
+					<i class="-z-20 text-lg bx bx-arrow-back bx-rotate-180"></i
+				></a>
+			</div>
+
+			<div class="image relative -z-10">
+				<img src="./img/photo1.png" alt="image" />
+				<div
+					class="card absolute -bottom-24 right-3 md:right-6 bg-[#181719] w-[300px] md:w-[400px] p-4 md:p-7 drop-shadow-lg"
+				>
+					<div class="flex gap-2 items-center">
+						<div class="h-12 w-12 overflow-hidden rounded-full">
+							<img src="./img/photo2.png" alt="user image" />
+						</div>
+						<div>
+							<h3 class="text-sm">Aliza Webber</h3>
+							<p class="text-xs text-gray-400">
+								Interior designer
+							</p>
+						</div>
+					</div>
+					<h1
+						class="text-lg md:text-2xl font-bold font-['Lora'] mt-4"
+					>
+						Designed in 2020 by Aliza Webber
+					</h1>
+				</div>
+			</div>
+			<!-- Hero Section Ends -->
+		</main>
+
+		<script src="script.js"></script>
+	</body>
+</html>
